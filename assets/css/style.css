@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(7, 13, 41);
+}
+
+.navbar{
+    background-color: rgb(7, 13, 41);
+}
+.navbar-brand{
+    color: rgb(63, 216, 216);
+    font-size: 40px;
+    margin-right: 50px;
+}
+#nav-btn{
+    background-color: rgb(7, 13, 41);
+    color: rgb(63, 216, 216);
+}
+a.nav-link{
+    color: rgb(63, 216, 216);
+}
+
+h1{
+    text-align: left;
+    font-size: 75px;
+    color: rgb(173, 201, 229);
+    Margin: 0px, 25px, 25px;
+}
+
+h2{
+    color: white;  
+    text-align: left;
+    Margin: 10px 0px 0px;
+}
+
+h3{
+    color: rgb(63, 216, 216);
+    font-size: 25px;
+    text-align: left;
+    
+}
+p{
+    text-align: left;
+    color: rgb(133, 169, 204);
+  
+}
+
+/* #8892b0 */
+
+.contact_btn{
+    color: rgb(63, 216, 216);
+    font-size: 15px;
+    text-align: center;
+    background-color: rgb(7, 13, 41);
+    border-radius: 2mm; color: rgb(63, 216, 216);
+
+
+}
+
+.list-group-item{
+    background-color: rgb(7, 13, 41); 
+}
+.skills{
+    margin-bottom: 10px;
+    background-color: rgb(7, 13, 41);   
+}
+.my_heading {
+    margin-bottom: 10mm;
+}
+.card{
+    background-color: rgb(7, 13, 41);
+    text-align: center;
+    color: rgb(133, 169, 204);
+}
+
+/* FOOTER */
+.container_contact{
+    background-color: rgb(7, 13, 41);
+}
+.social {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+#img-rounded {
+
+}
+
+.img-social {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 4px;
+}
+img {
+    max-width: 50%;
+    max-height: 50%%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Portfolio */
+.Portfolio {
+    margin-bottom: 15px;
+}
+
+/* Experience */
+.experience {
+    margin-bottom: 15px;
+}
