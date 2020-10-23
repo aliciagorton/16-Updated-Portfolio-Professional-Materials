@@ -30,12 +30,12 @@
             </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ml-md-auto justify-content-end">
-                        <a class="nav-item nav-link mr-auto" id="nav-item" href="/#about">About<span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link mr-auto" id="nav-item" href="/#portfolio">Portfolio</a>
-                        <a class="nav-item nav-link mr-auto" id="nav-item" href="/#experience">Experience</a>
-                        <a class="nav-item nav-link mr-auto" id="nav-item" href="/#contact">Contact</a>
+                        <a class="nav-item nav-link mr-auto" id="nav-item" href="#about">About<span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link mr-auto" id="nav-item" href="#portfolio">Portfolio</a>
+                        <a class="nav-item nav-link mr-auto" id="nav-item" href="#experience">Experience</a>
+                        <a class="nav-item nav-link mr-auto" id="nav-item" href="mailto:apersigehl@gmail.com" target="_blank">Contact</a>
                         <button class="btn btn-outline-success mr-auto" type="submit">
-                            <a class="nav-link resume-btn" id="nav-item" href="/resume.pdf">Resume</a>
+                            <a class="nav-link resume-btn" id="nav-item" href="assets/resume.pdf">Resume</a>
                         </button> 
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                         <br>
                         <br>
                         <button class="btn btn-outline-success mr-auto" type="submit">
-                            <a id="contact-btn" href="/#contact">Get In Touch</a>
+                            <a id="contact-btn" href="mailto:apersigehl@gmail.com" target="_blank">Get In Touch</a>
                         </button>                    
                     </div>
                 </div>
@@ -79,9 +79,8 @@
             <br>
 
             <!-- About -->
-            <section class="container-fluid">
+            <section class="container-fluid" id="about">
                 <div class="inner col-lg-10 mx-auto">
-                    <!-- class="inner col-lg-10 mx-auto" -->
                     <h2 class="my_heading">About Me</h2>
                     <div class="row">
                        
@@ -154,7 +153,7 @@
                           <div class="list-group" id="list-tab" role="tablist">
                             <a class="list-group-item list-group-item-action active" id="list-full-list" data-toggle="list" href="#list-full" role="tab" aria-controls="full">Full-Stack Certificate</a>
                             <a class="list-group-item list-group-item-action" id="list-BA-list" data-toggle="list" href="#list-BA" role="tab" aria-controls="BA">Bachelor of Science in Psychology</a>
-                            <a class="list-group-item list-group-item-action" id="list-nurse-list" data-toggle="list" href="#list-nurse" role="tab" aria-controls="nurse">Certification in Licensed Practical Nurse Parkland College</a>
+                            <a class="list-group-item list-group-item-action" id="list-nurse-list" data-toggle="list" href="#list-nurse" role="tab" aria-controls="nurse">Licensed Practical Nurse</a>
                           </div>
                         </div>
                         <div class="col-8">
@@ -183,84 +182,63 @@
             <br>
             <br>
             <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
             <!-- Portfolio -->
-            <section class="container-fluid">
+            <section class="container-fluid" id="portfolio">
                 <div class="inner col-lg-10 mx-auto">
                     <h2 class="Portfolio">Portfolio</h2>
                     <div class="card-deck">
+                        <!-- Project 3 -->
                         <div class="card">
-                          <img class="card-img-top" src="/assets/image/Optimized-Kuma.jpeg" alt="Project 2 login page">
+                            <img class="card-img-top" id="img-port"src="assets/image/comingsoon.png" alt="Project 3">
+                            <div class="card-body">
+                                  <h5 class="card-title">Porject 3</h5>
+                                  <p class="card-text">This will be the final project that is required by the full-stack program. ~Coming Soon~</p>
+                                  <p class="card-text"><small class="text-muted"></small>
+                                  <a href="#" class="card-link">Live Site</a>
+                                  <a href="#" class="card-link">Code</a>
+                                  </p>
+                              </div>
+                          </div>
+                        <!-- Project 2 -->
+                        <div class="card">
+                          <img class="card-img-top" id="img-port" src="assets/image/Optimized-Kuma.jpeg" alt="Project 2 login page">
                           <div class="card-body">
                                 <h5 class="card-title">Kuma</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, velit deleniti, sequi tempora nihil sint ratione ipsum neque animi quos cumque atque. Beatae vel delectus eligendi cupiditate veniam ipsum labore.</p>
+                                <p class="card-text">Kuma is an application that allows the user to create a profile (or profiles) for their dog in order to share and compare their pets traits in order to find man’s best friend their own best friend.</p><p>When creating a profile the user is can include traits from their pets name,  their energy level, and even the pet’s personality in order to find the perfect match for your furry friend.</p>
                                 <p class="card-text"><small class="text-muted"></small>
                                 <a href="https://peaceful-citadel-03664.herokuapp.com/" class="card-link">Live Site</a>
                                 <a href="https://github.com/aliciagorton/Project_Two.git" class="card-link">Code</a>
                                 </p>
                             </div>
                         </div>
+                    </div>
+                        <br>
+                        <!-- Project 1 -->
+                    <div class="card-deck">
                         <div class="card">
-                          <img class="card-img-top" src="/assets/image/burger.png" alt="Burger Application">
-                          <div class="card-body">
-                            <h5 class="card-title">Eat-Da-Burger</h5>
-                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam eveniet consectetur esse aperiam cumque? Iste eveniet odit nostrum? Quisquam consectetur recusandae quasi ullam repellendus ipsam iste, ipsa explicabo eum?</p>
-                            <p class="card-text"><small class="text-muted"></small>
-                                <a href="https://ancient-meadow-14223.herokuapp.com/" class="card-link">Live Site</a>
-                                <a href="https://github.com/aliciagorton/13-Node-Express-Handlebars.git" class="card-link">Code</a>
-                            </p>
-                          </div>
-                        </div>
-                        <div class="card">
-                          <img class="card-img-top" src="/assets/image/chuck.png" alt="Card image cap">
+                          <img class="card-img-top" id="img-port" src="assets/image/chuck.png" alt="Card image cap">
                           <div class="card-body">
                             <h5 class="card-title">Chuck Norris Fan Page</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo cupiditate, inventore quibusdam voluptatum tempore mollitia est, aliquam ut repellendus, ducimus ipsa qui voluptate assumenda natus fuga quia. Reprehenderit, necessitatibus dicta!</p>
+                            <p class="card-text">This was my first group project. It was a fun concept, that we throughly enjoyed building. Our assignment was to use at least two server-side APIs, a third-party API, interactive, and a polished UI. 
+                            </P>
                             <p class="card-text"><small class="text-muted"></small>
                                 <a href="https://the-magic-dragon.github.io/The-Magic-D-Project-/" class="card-link">Live Site</a>
                                 <a href="https://github.com/aliciagorton/07-Group-Project-1.git" class="card-link">Code</a>
                             </p>
                           </div>
                         </div>
-                    </div>
-                    <br>
-                    <div class="card-deck">
                         <div class="card">
-                          <img class="card-img-top" src="" alt="Project 3">
-                          <div class="card-body">
-                                <h5 class="card-title">Porject 3</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, velit deleniti, sequi tempora nihil sint ratione ipsum neque animi quos cumque atque. Beatae vel delectus eligendi cupiditate veniam ipsum labore.</p>
-                                <p class="card-text"><small class="text-muted"></small>
-                                <a href="#" class="card-link">Live Site</a>
-                                <a href="#" class="card-link">Code</a>
-                                </p>
+                            <img class="card-img-top" id="img-port" src="assets/image/burger.png" alt="Burger Application">
+                            <div class="card-body">
+                              <h5 class="card-title">Eat-Da-Burger</h5>
+                              <p class="card-text">In this assignment, a resturant application was made. The user can add a burger to the database, while also being able to choose a burger to devour. It was created with  MySQL, Node, Express, Handlebars and a ORM. Finally, it was deployed to Heroku. </p>
+                              <p class="card-text"><small class="text-muted"></small>
+                                  <a href="https://ancient-meadow-14223.herokuapp.com/" class="card-link">Live Site</a>
+                                  <a href="https://github.com/aliciagorton/13-Node-Express-Handlebars.git" class="card-link">Code</a>
+                              </p>
                             </div>
                         </div>
-                        <div class="card">
-                          <img class="card-img-top" src="" alt="Burger Application">
-                          <div class="card-body">
-                            <h5 class="card-title">Coming Soon</h5>
-                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam eveniet consectetur esse aperiam cumque? Iste eveniet odit nostrum? Quisquam consectetur recusandae quasi ullam repellendus ipsam iste, ipsa explicabo eum?</p>
-                            <p class="card-text"><small class="text-muted"></small>
-                                <a href="#" class="card-link">Live Site</a>
-                                <a href="#">Code</a>
-                            </p>
-                          </div>
-                        </div>
-                        <div class="card">
-                          <img class="card-img-top" src="" alt="Card image cap">
-                          <div class="card-body">
-                            <h5 class="card-title">Coming Soon</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo cupiditate, inventore quibusdam voluptatum tempore mollitia est, aliquam ut repellendus, ducimus ipsa qui voluptate assumenda natus fuga quia. Reprehenderit, necessitatibus dicta!</p>
-                            <p class="card-text"><small class="text-muted"></small>
-                                <a href="#" class="card-link">Live Site</a>
-                                <a href="#" class="card-link">Code</a>
-                            </p>
-                        </div>
+
                     </div>
                 </div>
             </section> 
@@ -269,44 +247,73 @@
             <br>
             <br>
             <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <!-- Experience -->
-            <section class="container-fluid">
+            <!-- Experience  -->
+            <section class="container-fluid" id="experience">
                 <div class="inner col-lg-10 mx-auto">
-                    <h2 class="experience">Experience</h2>
-                    <p>Registered Behavioral Technician (RBT) 
-                    Maxim Healthcare Services - Sacramento, CA … October 2019 to August 2020 
-                    Provided direct ABA therapy to children with autism. Worked in multiple environments; including homes and in schools. Responsible for implementation of the plan of care and a strong relationship with families involved.</p>
+                    <h3 class="experience">Experience</h3>
+                    <div class="row">
+                        <div class="col-4">
+                          <div class="list-group-ex" id="list-tab-ex" role="tablist">
+                            <a class="list-group-item list-group-item-action active" id="list-one-list" data-toggle="list" href="#list-one" role="tab" aria-controls="full">October 2019 to August 2020</a>
+                            <a class="list-group-item list-group-item-action" id="list-two-list" data-toggle="list" href="#list-two" role="tab" aria-controls="BA">June 2019 to October 2019</a>
+                            <a class="list-group-item list-group-item-action" id="list-three-list" data-toggle="list" href="#list-three" role="tab" aria-controls="BA">May 2018 to May 2019</a>
+                            <a class="list-group-item list-group-item-action" id="list-four-list" data-toggle="list" href="#list-four" role="tab" aria-controls="BA">June 2019 to October 2019</a>
+                            <a class="list-group-item list-group-item-action" id="list-five-list" data-toggle="list" href="#list-five" role="tab" aria-controls="BA">July 2013 to June 2014</a>
+                            <a class="list-group-item list-group-item-action" id="list-six-list" data-toggle="list" href="#list-six" role="tab" aria-controls="nurse">August 2012 to June 2013</a>
 
-                    <p>Registered Behavioral Technician (RBT) 
-                    Intercare Therapy Inc. - Sacramento, CA … June 2019 to October 2019 
-                    Provided direct ABA therapy to children with autism. Worked in multiple environments; including homes and in community settings. Responsible for implementation of the plan of care and a strong relationship with families involved. </p>
-                    <p>
-                    Behavior Technician 
-                    Comprehensive Early Autism Services - Chicago, IL … May 2018 to May 2019 
-                    Provided direct ABA therapy to children with autism. Worked in multiple environments; including homes and in schools. Responsible for implementation of the plan of care and a strong relationship with families involved.</p>
+                          </div>
+                        </div>
+                        <div class="col-8">
+                          <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="list-one" role="tabpanel" aria-labelledby="list-one-list">
+                                <p id="ex">Registered Behavioral Technician (RBT) with Maxim Healthcare Services</p>
+                                <p id="ex">Sacramento, CA</p> 
+                                <p id="e">Provided direct ABA therapy to children with autism. Worked in multiple environments; including homes and in schools. Responsible for implementation of the plan of care and a strong relationship with families involved.</p>
+                           </div>
 
-                    <p>Undergraduate Research Assistant 
-                    Language Acquisition Lab at the University of Illinois, Urbana-Champaign - Urbana, IL … June 2016 to May 2017 
-                    Helped to design materials for experiments. Tested toddlers, preschoolers, and adults in experiments. Responsible for transcription, coding of children's speech, and coding visual fixations from videotapes.</p>
+                           <div class="tab-pane fade" id="list-two" role="tabpanel" aria-labelledby="list-two-list"> 
+                            <p id="ex">Registered Behavioral Technician (RBT) with Intercare Therapy Inc.</p>
+                            <p id="ex">Sacramento, CA</p>
+                            <p id="ex">Provided direct ABA therapy to children with autism. Worked in multiple environments; including homes and in community settings. Responsible for implementation of the plan of care and a strong relationship with families involved.</p>
+                            </div>
 
-                    <p>Licensed Practical Nurse 
-                    Carle Foundation Hospital - Urbana, IL … July 2013 to June 2014 
-                    Provided nursing care to patients in outpatient procedures. Evaluated, interventions and modification of the plan of care with each patient. Responsible for scheduling and instructing patients for procedure. </p>
+                           <div class="tab-pane fade" id="list-three" role="tabpanel" aria-labelledby="list-three-list"> 
+                            <p id="ex">Behavior Technician with Comprehensive Early Autism Services</p>
+                            <p id="ex">Urbana, IL</p>
+                            <p id="ex">Helped to design materials for experiments. Tested toddlers, preschoolers, and adults in experiments. Responsible for transcription, coding of children's speech, and coding visual fixations from videotapes.</p>
+                            </div>
 
-                    <p>Licensed Practical Nurse 
-                    Heartland Health Care Center - Champaign, IL … August 2012 to June 2013 
-                    Provided skilled nursing care for assisted living, post-acute medical, rehabilitation and hospice care. Direct care was my primary responsibility, along with supervisor responsibility of nursing assistants. </p>
+                           <div class="tab-pane fade" id="list-four" role="tabpanel" aria-labelledby="list-four-list"> 
+                            <p id="ex">Undergraduate Research Assistant with Language Acquisition Lab at the University of Illinois, Urbana-Champaign</p>
+                            <p id="ex">Urbana, IL</p>
+                            <p id="ex">Helped to design materials for experiments. Tested toddlers, preschoolers, and adults in experiments. Responsible for transcription, coding of children's speech, and coding visual fixations from videotapes.</p>
+                            </div>
 
+                            <div class="tab-pane fade" id="list-five" role="tabpanel" aria-labelledby="list-five-list"> 
+                                <p id="ex">Licensed Practical Nurse with Carle Foundation Hospital</p>
+                                <p id="ex">Urbana, IL</p>
+                                <p id="ex">Provided nursing care to patients in outpatient procedures. Evaluated, interventions and modification of the plan of care with each patient. Responsible for scheduling and instructing patients for procedure.</p>
+                            </div>
+                            <div class="tab-pane fade" id="list-six" role="tabpanel" aria-labelledby="list-six-list">
+                                <p id="ex">Licensed Practical Nurse with Heartland Health Care Center</p>
+                                <p id="ex">Champaign, IL</p>
+                                <p id="ex">Provided skilled nursing care for assisted living, post-acute medical, rehabilitation and hospice care. Direct care was my primary responsibility, along with supervisor responsibility of nursing assistants.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </section>
-                                  
+            </section> 
         </main>>
     </div>
+    <br>  
+    <br>  
+    <br>  
+    <br>  
+    <br>  
+    <br>  
+    <br>  
+    <br>  
+    <br>  
     <!-- Footer -->
     <div class="container_contact">
         <div class="row">
@@ -314,11 +321,11 @@
                 <p class="social">Designed & Built by Alicia Gorton</p>
                 <p class="social">Find me here:
                    <!--Linkedin-->
-                    <a class="btn-floating btn-lg btn-li" type="button" role="button"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn-floating btn-lg btn-li" type="button" role="button" href="https://www.linkedin.com/in/alicia-gorton" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                     <!--Github-->
-                    <a class="btn-floating btn-lg btn-git" type="button" role="button"><i class="fab fa-github"></i></a>
+                    <a class="btn-floating btn-lg btn-git" type="button" role="button" href="https://github.com/aliciagorton" target="_blank"><i class="fab fa-github"></i></a>
                     <!--Email-->
-                    <a class="btn-floating btn-lg btn-email" type="button" role="button"><i class="fas fa-envelope"></i></a> 
+                    <a class="btn-floating btn-lg btn-email" type="button" role="button" href="mailto:apersigehl@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a> 
                 </p>
             </span>
         </div>

@@ -105,37 +105,7 @@ p{
     color: rgb(133, 169, 204);
 }
 
-/* FOOTER */
-.container_contact{
-    background-color: rgb(7, 13, 41);
-}
-.social {
-    text-align: center;
-    max-width: 100%;
-    height: auto;
-}
-#img-rounded {
 
-}
-
-#skills-id {
-    width: 100%;
-    max-width: 100px;
-    height: auto;
-}
-
-.img-social {
-    height: 200px;
-    width: 200px;
-    border: 1px solid black;
-    margin: 4px;
-}
-img {
-    max-width: 50%;
-    max-height: 50%%;
-    display: block;
-    margin: 0 auto;
-}
 
 
 /* Education */
@@ -177,8 +147,107 @@ img {
 .Portfolio {
     margin-bottom: 15px;
 }
+#img-port {
+    width: 100%;
+    height: auto;
+}
+
 
 /* Experience */
 .experience {
     margin-bottom: 15px;
+}
+#list-one {
+    background-color: rgb(7, 13, 41);
+    text-align: center;
+    color: rgb(133, 169, 204);
+}
+#list-two {
+    background-color: rgb(7, 13, 41);
+    text-align: center;
+    color: rgb(133, 169, 204);
+}
+#list-three {
+    background-color: rgb(7, 13, 41);
+    text-align: center;
+    color: rgb(133, 169, 204);
+}
+#list-four {
+    background-color: rgb(7, 13, 41);
+    text-align: center;
+    color: rgb(133, 169, 204);
+}
+#list-five {
+    background-color: rgb(7, 13, 41);
+    text-align: center;
+    color: rgb(133, 169, 204);
+}
+#list-six {
+    background-color: rgb(7, 13, 41);
+    text-align: center;
+    color: rgb(133, 169, 204);
+}
+#list-one-list{
+    background-color: rgb(7, 13, 41);
+    text-align: center;
+    color: rgb(133, 169, 204);
+}
+#list-two-list {
+    background-color: rgb(7, 13, 41);
+    text-align: center;
+    color: rgb(133, 169, 204);
+}
+#list-three-list{
+    background-color: rgb(7, 13, 41);
+    text-align: center;
+    color: rgb(133, 169, 204);
+}
+#list-four-list{
+    background-color: rgb(7, 13, 41);
+    text-align: center;
+    color: rgb(133, 169, 204);
+}
+
+#list-five-list {
+    background-color: rgb(7, 13, 41);
+    text-align: center;
+    color: rgb(133, 169, 204);
+}
+#list-six-list{
+    background-color: rgb(7, 13, 41);
+    text-align: center;
+    color: rgb(133, 169, 204);
+}
+#ex {
+    text-align: center; 
+}
+
+
+/* FOOTER */
+.container_contact{
+    background-color: rgb(7, 13, 41);
+}
+.social {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+
+#skills-id {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+}
+
+.img-social {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 4px;
+}
+img {
+    /* max-width: 50%;
+    max-height: 50%%; */
+    display: block;
+    margin: 0 auto;
 }
