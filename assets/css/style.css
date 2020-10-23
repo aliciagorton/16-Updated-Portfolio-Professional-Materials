@@ -139,13 +139,38 @@ img {
 
 
 /* Education */
-#Schoollist {
+#list-full {
     background-color: rgb(7, 13, 41);
     text-align: center;
     color: rgb(133, 169, 204);
 }
-#Schoolex{
-    
+#list-BA {
+    background-color: rgb(7, 13, 41);
+    text-align: center;
+    color: rgb(133, 169, 204);
+}
+#list-nurse {
+    background-color: rgb(7, 13, 41);
+    text-align: center;
+    color: rgb(133, 169, 204);
+}
+#list-full-list{
+    background-color: rgb(7, 13, 41);
+    text-align: center;
+    color: rgb(133, 169, 204);
+}
+#list-BA-list {
+    background-color: rgb(7, 13, 41);
+    text-align: center;
+    color: rgb(133, 169, 204);
+}
+#list-nurse-list{
+    background-color: rgb(7, 13, 41);
+    text-align: center;
+    color: rgb(133, 169, 204);
+}
+#ed {
+    text-align: center; 
 }
 
 /* Portfolio */
