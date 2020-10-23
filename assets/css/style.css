@@ -14,8 +14,38 @@ body{
     background-color: rgb(7, 13, 41);
     color: rgb(63, 216, 216);
 }
-a.nav-link{
+.nav-link{
     color: rgb(63, 216, 216);
+}
+
+#nav-item {
+    color: rgb(63, 216, 216);
+}
+
+/* BODY */
+#hi{
+    color: rgb(63, 216, 216);
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#name {
+    text-align: left;
+    font-size: 85px;
+    color: rgb(210, 228, 252);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#contact-btn {
+    color: rgb(63, 216, 216);
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.btn {
+    padding: 0rem;
 }
 
 h1{
@@ -63,6 +93,7 @@ p{
     background-color: rgb(7, 13, 41);   
 }
 .my_heading {
+    color:rgb(210, 228, 252);
     margin-bottom: 10mm;
 }
 .card{
