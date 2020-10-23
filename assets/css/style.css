@@ -43,6 +43,9 @@ body{
     font-size: 20px;
     margin-top: 5px;
     margin-bottom: 5px;
+    padding:1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .btn {
     padding: 0rem;
@@ -115,6 +118,12 @@ p{
 
 }
 
+#skills-id {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+}
+
 .img-social {
     height: 200px;
     width: 200px;
@@ -126,6 +135,17 @@ img {
     max-height: 50%%;
     display: block;
     margin: 0 auto;
+}
+
+
+/* Education */
+#Schoollist {
+    background-color: rgb(7, 13, 41);
+    text-align: center;
+    color: rgb(133, 169, 204);
+}
+#Schoolex{
+    
 }
 
 /* Portfolio */
