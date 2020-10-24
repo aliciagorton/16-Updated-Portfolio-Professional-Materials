@@ -9,6 +9,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
 <!-- fonts -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+<!-- Roboto and Space Mono-->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Slab&family=Space+Mono&display=swap" rel="stylesheet">
 <!-- css -->
 <link rel="stylesheet" href="assets/css/style.css">
 
@@ -48,14 +50,14 @@
             <section class="main_container">
                 <div class="row"> 
                     <div class="col-lg-8 mx-auto">
-                        <h3 id="hi">Hi, my name is</h3>
+                        <h3 id="hi">Hello, my name is</h3>
                         <h1 id="name">Alicia Gorton.</h1>
                         <p class="justify-content-center">
                             I'm a full-stack web developer based in Sacramento, CA that enjoys crafting websites, applications, and everything in between. I am looking for opportunities of growth in the fields of emerging technology and data science.  
                         </p>
                         <br>
                         <br>
-                        <button class="btn btn-outline-success mr-auto" type="submit">
+                        <button class="btn btn-outline-success mr-auto" id="contantBtn" type="submit">
                             <a id="contact-btn" href="mailto:apersigehl@gmail.com" target="_blank">Get In Touch</a>
                         </button>                    
                     </div>
@@ -84,32 +86,38 @@
                     <h2 class="my_heading">About Me</h2>
                     <div class="row">
                        
-                        <p class="col-md-8">As a Full Stack Developer with a certificate from UC Davis Boot Camp, I am looking for growth in the fields of emerging technology and data science.Excites to merge extensive background in healthcare with my passion for software development. Comfortable with working in fast paced and high stress environments with a focus on efficiency and attention to detail. Confident in ability to clearly convey information efficiently and ability to work on a team of any size. Passionate about overcoming programming challenges. 
+                        <p class="col-md-9">As a Full Stack Developer with a certificate from UC Davis Boot Camp, I am looking for growth in the fields of emerging technology and data science.Excites to merge extensive background in healthcare with my passion for software development. Comfortable with working in fast paced and high stress environments with a focus on efficiency and attention to detail. Confident in ability to clearly convey information efficiently and ability to work on a team of any size. Passionate about overcoming programming challenges. 
                         </p>
-
+                        
+                        <div class="col-md-3 img-containter">
                         <!-- self-image -->
-                        <img class="img-circle col-md-4 img-fluid" src="assets/image/bio.jpeg" alt="Picture of Alicia Gorton">
-
-                        <br>
-
-                        <!-- Technical Skills -->
-                        <h3 class="col-md-8 justify-content-center">Technical Skills</h3>
-                        <ul class="skills col-md-6 list-group list-group-horizontal-sm">
+                            <img class="img-circle col-md-2 img-fluid rounded" id="self-img" src="assets/image/bio.jpeg" alt="Picture of Alicia Gorton">
+                        </div>
+                        
+                    </div> 
+                </div> 
+            </section> 
+            <section class="container-fluid" id="tech">  
+                <div class="row inner col-lg-10 mx-auto">  
+                    <!-- Technical Skills -->
+                    <h3 >Technical Skills</h3>
+                    <div class="col-md-10">
+                        <ul class="skills list-group list-group-horizontal-sm">
                             <li class="list-group-item">
-                                <img id="skills-id" class="img-fluid" style="width:3em; height:3em" src="assets/image/react.png" alt="react.js logo">
+                                <img id="skills-id" class="img-fluid" style="width:2.em; height:3em" src="assets/image/react.png" alt="react.js logo">
                                 <!-- <hr> -->
                                 <p>React.js</p>
                             </li>
                             <li class="list-group-item">
                                 <img id="skills-id" class="img-fluid img-thumbnail" style="width:3em; height:3em" src="assets/image/mongodb2.png" alt="MongoDB logo">
                                 <!-- <hr> -->
-                                <p>MongoDB</p>
+                             <p>MongoDB</p>
                             </li>
                             <li class="list-group-item">
-                                <img id="skills-id" class="img-fluid img-thumbnail" style="width:3em; height:3em" src="assets/image/mysql2.png" alt="MySQL logo">
+                             <img id="skills-id" class="img-fluid img-thumbnail" style="width:3em; height:3em" src="assets/image/mysql2.png" alt="MySQL logo">
                                 <!-- <hr> -->
                                 <p>MySQL</p>
-                            </li>
+                             </li>
                             <li class="list-group-item">
                                 <img id="skills-id" class="img-fluid img-thumbnail" style="width:3em; height:3em" src="assets/image/node.png" alt="Node.js logo">
                                 <!-- <hr> -->
@@ -140,7 +148,7 @@
                                 <!-- <hr> -->
                                 <p>HTML</p>
                             </li>
-                        </ul>   
+                        </ul>  
                     </div> 
                 </div>
             </section>    
@@ -189,9 +197,9 @@
                     <div class="card-deck">
                         <!-- Project 3 -->
                         <div class="card">
-                            <img class="card-img-top" id="img-port"src="assets/image/comingsoon.png" alt="Project 3">
+                            <img class="card-img-top" id="img-port"src="assets/image/comingsoon.jpeg" alt="Project 3">
                             <div class="card-body">
-                                  <h5 class="card-title">Porject 3</h5>
+                                  <h5 class="card-title">Project 3</h5>
                                   <p class="card-text">This will be the final project that is required by the full-stack program. ~Coming Soon~</p>
                                   <p class="card-text"><small class="text-muted"></small>
                                   <a href="#" class="card-link">Live Site</a>
@@ -205,7 +213,7 @@
                           <div class="card-body">
                                 <h5 class="card-title">Kuma</h5>
                                 <p class="card-text">
-                                    The second collaborative project from bootcamp. Kuma is an application that allows the user to create a profile for their dog in order to share and compare their pets traits in order to find man’s best friend and their own best friend.</p><p>My role was primarily front-end and design. I enjoyed learning more about bootstrap and implementing new UI designs. My primary challenge with this project was understanding sessions and how foreign keys are assigned.</p><p>Sequelize -  Passport - Express - Node.js - Handlebars - MySQL - Javascript - Bootstrap - CSS - HTML
+                                    The second collaborative project from bootcamp. Kuma is an application that allows the user to create a profile for their dog in order to share and compare their pets traits in order to find man’s best friend and their own best friend.</p><p>My role was primarily front-end and design. I enjoyed learning more about bootstrap and implementing new UI designs. My primary challenge with this project was understanding sessions and how foreign keys are assigned.</p><p id="code">Sequelize -  Passport - Express - Node.js - Handlebars - MySQL - Javascript - Bootstrap - CSS - HTML
                                     </p>
                                 <p class="card-text"><small class="text-muted"></small>
                                 <a href="https://peaceful-citadel-03664.herokuapp.com/" target="_blank" class="card-link">Live Site</a>
@@ -224,7 +232,7 @@
                             <p class="card-text">
                                 The first collaborative project. We went into this project wanting to thoroughly enjoy this project. Our assignment was to use two server-side APIs, a third-party API, make it interactive, and have a polished UI design.</p> 
                                 <p>My role in this project was to make our APIs functional, along with the buttons functional with JavaScript. The biggest challenge in this project was understanding the DOM and working with the APIs.</p>
-                                <p>Javascript - CSS - Bulma- HTML 
+                                <p id="code">Javascript - CSS - Bulma- HTML 
 
                             </P>
                             <p class="card-text"><small class="text-muted"></small>
@@ -238,7 +246,7 @@
                             <div class="card-body">
                               <h5 class="card-title">Eat-Da-Burger</h5>
                               <p class="card-text">
-                                  In this assignment, I made my first full-stack application. A user can “click” a button to eat a burger from a list provided or they can add a burger to devour. This assignment is tied to a database and deployed to Heroku.</p> <p>MySQL - Node.js - Express - Handlebars- CSS - HTML
+                                  In this assignment, I made my first full-stack application. A user can “click” a button to eat a burger from a list provided or they can add a burger to devour. This assignment is tied to a database and deployed to Heroku.</p> <p id="code">MySQL - Node.js - Express - Handlebars- CSS - HTML
                                  </p>
                               <p class="card-text"><small class="text-muted"></small>
                                   <a href="https://ancient-meadow-14223.herokuapp.com/"  target="_blank"class="card-link">Live Site</a>
@@ -255,7 +263,7 @@
                           <div class="card-body">
                             <h5 class="card-title">Employee Tracker</h5>
                             <p class="card-text">
-                                This assignment is an application that allows the user to interact with data related to specific employees. This program uses MySQL database to store information on the user and when the user chooses an option the corresponding tables will appear to use.</p><p>MySQL - Node.js - Express - JavaScript                                 
+                                This assignment is an application that allows the user to interact with data related to specific employees. This program uses MySQL database to store information on the user and when the user chooses an option the corresponding tables will appear to use.</p><p id="code">MySQL - Node.js - Express - JavaScript                                 
                             </P>
                             <p class="card-text"><small class="text-muted"></small>
                                 <a href="https://aliciagorton.github.io/12-MySQL-Homework-Employee-Tracker" target="_blank" class="card-link">Live Site</a>
@@ -269,7 +277,7 @@
                             <div class="card-body">
                               <h5 class="card-title">Express Note Taker</h5>
                               <p class="card-text">
-                                  In this assignment, the user can create an application that can be used to write, save, and delete notes. It uses an express backend and saves and retrieves note data from a JSON file.</p><p>MySQL, Express, Node.js, JavaScript, CSS, HTML
+                                  In this assignment, the user can create an application that can be used to write, save, and delete notes. It uses an express backend and saves and retrieves note data from a JSON file.</p><p id="code">MySQL, Express, Node.js, JavaScript, CSS, HTML
                                 </p>
                               <p class="card-text"><small class="text-muted"></small>
                                   <a href="https://aliciagorton.github.io/11-Express-Homework-Note-Taker" target="_blank" class="card-link">Live Site</a>
@@ -291,7 +299,7 @@
             <!-- Found a bug with aria-controls="home" = still not working -->
             <section class="container-fluid" id="experience">
                 <div class="inner col-lg-10 mx-auto">
-                    <h3 class="experience">Experience</h3>
+                    <h2 class="experience" id="experience">Experience</h2>
                     <div class="row">
                         <div class="col-4">
                           <div class="list-group" id="list-tab-ex" role="tablist">
